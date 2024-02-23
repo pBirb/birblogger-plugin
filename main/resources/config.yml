@@ -1,0 +1,19 @@
+logging: true ## Set this to false to disable logging
+discord.webhook: https://discord.com/api/webhooks/changeme ## Discord Webhook
+
+##############################################
+################Broadcast Config#################
+auto_broadcast: true ## For auto broadcasting messages
+broadcast_interval: 60 ## Interval between messages in seconds
+broadcast_prefix: "&7[&aBirb-cage&7]" ## Prefix for broadcast messages
+broadcast_list: ## List of broadcast messages
+  - "&aThis is a broadcast message"
+  - "&bThis is another broadcast message"
+  - "&cBirb was here"
+##############################################
+################Filter Config#################
+filter: true ## Word Filter
+filteredwordlist: ## Filtered Words
+  - word1
+  - word2
+  - word3
